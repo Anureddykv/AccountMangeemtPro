@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:background="@color/lightGray"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account List"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/header_background"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="12dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:scrollbars="vertical"/>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnOpenPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open PDF Viewer"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnOpenImageCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Image Capture"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@color/secondaryColor"
+        android:textColor="@color/white"
+        android:elevation="4dp"/>
+
+</LinearLayout>

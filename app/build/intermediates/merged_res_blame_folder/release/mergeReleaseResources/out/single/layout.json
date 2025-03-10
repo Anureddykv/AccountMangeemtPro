@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.fincare.accmangement.app-mergeReleaseResources-54:/layout/item_account.xml",
+        "source": "com.fincare.accmangement.app-main-56:/layout/item_account.xml"
+    },
+    {
+        "merged": "com.fincare.accmangement.app-mergeReleaseResources-54:/layout/activity_image_capture.xml",
+        "source": "com.fincare.accmangement.app-main-56:/layout/activity_image_capture.xml"
+    },
+    {
+        "merged": "com.fincare.accmangement.app-mergeReleaseResources-54:/layout/activity_alternate_name.xml",
+        "source": "com.fincare.accmangement.app-main-56:/layout/activity_alternate_name.xml"
+    },
+    {
+        "merged": "com.fincare.accmangement.app-mergeReleaseResources-54:/layout/activity_main.xml",
+        "source": "com.fincare.accmangement.app-main-56:/layout/activity_main.xml"
+    }
+]
