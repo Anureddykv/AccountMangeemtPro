@@ -43,7 +43,7 @@ This dynamic Android application showcases seamless API integration, robust data
 ## 📲 Installation Guide
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Anureddykv/AccMangement.git
+   git clone https://github.com/Anureddykv/AccountMangeemtPro.git
    ```
 2. Open the project in Android Studio.
 3. Sync Gradle to fetch dependencies.
@@ -57,7 +57,7 @@ This dynamic Android application showcases seamless API integration, robust data
 ✅ Swipe left/right to **edit** or **delete** accounts.
 
 ## 📦 Deliverables
-✅ **Demo APK:** [Download APK](https://github.com/Anureddykv/AccMangement/releases/latest)
+✅ **Demo APK:** [Download APK](https://github.com/Anureddykv/AccountMangeemtPro/releases/latest)
 
 ✅ **Source Code:** Available on GitHub
 ✅ **APK File:** Included for easy installation
